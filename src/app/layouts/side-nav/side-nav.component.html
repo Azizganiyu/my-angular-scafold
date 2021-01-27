@@ -1,0 +1,8 @@
+<nav [ngClass]="{open: toggleNav}" class="dropdown">
+  <div class="wrapper">
+    <div class="links">
+      <a (click)="closeToggles()" [routerLink]="['/members']" >Members</a>
+      <a (click)="closeToggles()" [routerLink]="['/branches']">Branches</a>
+    </div>
+  </div>
+</nav>

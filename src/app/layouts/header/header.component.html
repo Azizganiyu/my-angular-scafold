@@ -1,0 +1,51 @@
+<header>
+  <div class="main-nav">
+    <nav>
+      <div class="left-side">
+        <div class="toggler">
+          <i (click)="toggleNav()" class="fas fa-bars"></i>
+        </div>
+        <div class="logo">
+          <a [routerLink]="['']">
+            <img class="mr-2 png" src="assets/images/logo.png" alt="">
+          </a>
+        </div>
+
+        <div class="main-links">
+          <div class="w-100">
+            <div class="links">
+              <a class="link" [routerLink]="['']" >Members</a>
+              <a class="link" [routerLink]="['branches']" >Branches</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-links">
+        <div class="w-100">
+          <div class="links">
+            <a class="link message" [routerLink]="['/chats']">
+              <div class="count">
+                {{notificationCount}}
+              </div>
+              <mdb-icon fas icon="bell"></mdb-icon>
+            </a>
+
+            <a href="#" class="link search"><i class="fas fa-search"></i></a>
+            <a class="btn-group" mdbDropdown>
+              <a mdbDropdownToggle type="button" class="dropdown-toggle waves-light">
+                <img [src]="vendorImage" alt="" class="user-profile-photo png">
+              </a>
+
+              <div class="dropdown-menu account dropdown-primary">
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item" (click)="confirmLogout()">Logout</a>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <app-side-nav></app-side-nav>
+</header>

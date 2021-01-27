@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-dialog-container{
+  background: white;
+  color: black;
+  margin: auto !important;
+}
+
+a:active, .link:focus, .link:active, .link:visited, textarea:focus, textarea:active, textarea:visited, input:focus, button:active, input:active, a:focus, button:focus, input:focus a:visited, button:visited, input:visited, select:active, select:focus, select:visited, div:active, div:focus, div:visited{
+  outline: none !important;
+  outline-style: none !important;
+}
+
+.breadcrumb{
+  margin: 0!important;
+  font-size: 0.9em;
+
+  a{
+    color: #455a64;
+  }
+}
