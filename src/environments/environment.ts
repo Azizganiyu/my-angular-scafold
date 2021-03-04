@@ -6,8 +6,8 @@ export const environment = {
   production: false,
   api: {
   	version: '1.0',
-    url: 'http://asusuapi.test/api/',
-    imageUrl: 'http://asusuapi.test/images/',
+    url: '',
+    imageUrl: '',
   },
 };
 

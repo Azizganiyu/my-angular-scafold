@@ -16,9 +16,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'agro-box'`, () => {
+  it(`should have as title 'app-scafold'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('agro-box');
+    expect(app.title).toEqual('app-scafold');
   });
 });

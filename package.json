@@ -1,5 +1,5 @@
 {
-  "name": "agro-box",
+  "name": "app-scafold",
   "version": "10.1.1",
   "scripts": {
     "ng": "ng",

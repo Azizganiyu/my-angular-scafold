@@ -14,7 +14,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { PageLayoutComponent } from './layouts/page-layout/page-layout.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared.module';
-import { SideNavComponent } from './layouts/side-nav/side-nav.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { SideNavComponent } from './layouts/side-nav/side-nav.component';
     HeaderComponent,
     FooterComponent,
     PageLayoutComponent,
-    SideNavComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
